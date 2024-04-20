@@ -9,7 +9,7 @@ function Validation() {
     const [passwardrerr, setpasswardrerr] = React.useState(false)
     function HandleLogin(e) {
         // alert("devilal what are you doing")
-        if (user.length < 3 || passward.length < 3) {
+        if (user.length > 3 || passward.length >3) {
             alert("Type Error")
         }
         else {
