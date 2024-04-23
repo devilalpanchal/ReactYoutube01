@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #090505;
 }
 .App {
@@ -13,13 +13,12 @@ body{
   border-radius: 20px;
   border: 5px solid rgb(129, 164, 136);
 }
-.null{
+.null {
   text-align: center;
   background-color: rgb(132, 96, 166);
   border-bottom: 10px;
-
 }
-.flex{
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;

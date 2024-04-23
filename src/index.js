@@ -22,25 +22,25 @@ import Validation from './BasicFromValidation';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <User/>
+    <User />
     <App />
     <Return />
     <Class />
-    <Jsx/>
-    <Withoutksx/>
-    <Bpp/>
-    <State/>
-    <AppState/>
-    <Student name={"devil pk"} email={"devi@gamail.com"} others={{address:"delhi",mobile:"6851254"}}/>
-    <Student name={"jeet pk"} email={"mohabnn@gamail.com"} others={{address:"ratlam",mobile:"6851246546554"}}/>
-    <StudentOne name={"helo developer"}/>
-    <StudentOne name={"helo rect js"}/>
-    <StudentOne name={"helo java script"}/>
-    <Input/>
-    <Toggle/>
-    <FormHandle/>
-    <Condition/>
-    <Validation/>
+    <Jsx />
+    <Withoutksx />
+    <Bpp />
+    <State />
+    <AppState />
+    <Student name={"devil pk"} email={"devi@gamail.com"} others={{ address: "delhi", mobile: "6851254" }} />
+    <Student name={"jeet pk"} email={"mohabnn@gamail.com"} others={{ address: "ratlam", mobile: "6851246546554" }} />
+    <StudentOne name={"helo developer"} />
+    <StudentOne name={"helo rect js"} />
+    <StudentOne name={"helo java script"} />
+    <Input />
+    <Toggle />
+    <FormHandle />
+    <Condition />
+    <Validation />
   </React.StrictMode>
 );
 

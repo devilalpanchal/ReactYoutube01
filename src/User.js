@@ -1,18 +1,18 @@
 function App() {
 
-    function Apple() {
-        return(
-            <div >
-                Hello Dobble component
-            </div>
-        )
-    }
+  function Apple() {
     return (
-      <div className="App">
-        <h2>Focus on Study Seriously</h2>
-        <Apple/>
+      <div >
+        Hello Dobble component
       </div>
-    );
+    )
   }
-  
-  export default App;
+  return (
+    <div className="App">
+      <h2>Focus on Study Seriously</h2>
+      <Apple />
+    </div>
+  );
+}
+
+export default App;

@@ -9,7 +9,7 @@ function Validation() {
     const [passwardrerr, setpasswardrerr] = React.useState(false)
     function HandleLogin(e) {
         // alert("devilal what are you doing")
-        if (user.length > 3 || passward.length >3) {
+        if (user.length > 3 || passward.length > 3) {
             alert("Type Error")
         }
         else {
@@ -44,9 +44,7 @@ function Validation() {
     }
     return (
         <div className="App">
-
             <form onSubmit={HandleLogin}>
-
                 <h1>Login Form form React js</h1>
                 <input type="text" placeholder="User Id" onChange={userHandler}></input> {usererr ? <span>user not valid</span> : null} <br /> <br />
                 <input type="number" placeholder="User Passward" onChange={passwardHandler}></input> {passwardrerr ? <span>passward not valid</span> : null} <br /> <br />
