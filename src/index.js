@@ -18,7 +18,10 @@ import Toggle from './HideShow&Toggle';
 import FormHandle from './FormLikeSignandLogIn';
 import Condition from './ConditinalRendering';
 import Validation from './BasicFromValidation';
-
+import Bsall from './LifeCycleOfMethod';
+import Tstate from './StateClass';
+import MountDid from './ComponentDidMount';
+import Didupdate from './ComponentDidUpdate';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -41,10 +44,10 @@ root.render(
     <FormHandle />
     <Condition />
     <Validation />
+    <Bsall />
+    <Tstate />
+<MountDid/>
+<Didupdate/>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
