@@ -23,6 +23,10 @@ import Tstate from './StateClass';
 import MountDid from './ComponentDidMount';
 import Didupdate from './ComponentDidUpdate';
 import ShouldUpdate from './ShouldComUpdate';
+import CompWilUnMount from './ComWillUnMount';
+import Amm from './Hooks/UseState';
+import USeEllo from './Hooks/USeEffect';
+import USeLiPro from './Hooks/UseEffPropsState';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -50,6 +54,10 @@ root.render(
 <MountDid/>
 <Didupdate/>
 <ShouldUpdate/>
+<CompWilUnMount/>
+<Amm/>
+<USeEllo/>
+<USeLiPro/>
   </React.StrictMode>
 );
 reportWebVitals();

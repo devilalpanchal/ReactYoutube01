@@ -13,6 +13,18 @@ body {
   border-radius: 20px;
   border: 5px solid rgb(129, 164, 136);
 }
+
+.devilal{
+  background-color: #4066e0;
+  color: white;
+  text-align: center;
+}
+.devilal1{
+  background-color: #d2d87f;
+  color: rgba(7, 3, 3, 0);
+  text-align: center;
+
+}
 .null {
   text-align: center;
   background-color: rgb(132, 96, 166);
