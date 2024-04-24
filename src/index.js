@@ -22,6 +22,7 @@ import Bsall from './LifeCycleOfMethod';
 import Tstate from './StateClass';
 import MountDid from './ComponentDidMount';
 import Didupdate from './ComponentDidUpdate';
+import ShouldUpdate from './ShouldComUpdate';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -48,6 +49,7 @@ root.render(
     <Tstate />
 <MountDid/>
 <Didupdate/>
+<ShouldUpdate/>
   </React.StrictMode>
 );
 reportWebVitals();
