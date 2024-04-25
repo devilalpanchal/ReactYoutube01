@@ -31,6 +31,7 @@ import USeLiPro from './Hooks/UseEffPropsState';
 import MapFucn from './Method/MapMethod';
 import MapFucnBoot from './Method/BootStrapList';
 import Neast from './Method/NestedListFrnesArr';
+import ReuseComp from './Component/ReuseComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -65,6 +66,7 @@ root.render(
     <MapFucn />
     <MapFucnBoot />
     <Neast/>
+    <ReuseComp/>
   </React.StrictMode>
 );
 reportWebVitals();
