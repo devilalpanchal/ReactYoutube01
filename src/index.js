@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import User from './User';
@@ -27,6 +28,9 @@ import CompWilUnMount from './ComWillUnMount';
 import Amm from './Hooks/UseState';
 import USeEllo from './Hooks/USeEffect';
 import USeLiPro from './Hooks/UseEffPropsState';
+import MapFucn from './Method/MapMethod';
+import MapFucnBoot from './Method/BootStrapList';
+import Neast from './Method/NestedListFrnesArr';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -51,13 +55,16 @@ root.render(
     <Validation />
     <Bsall />
     <Tstate />
-<MountDid/>
-<Didupdate/>
-<ShouldUpdate/>
-<CompWilUnMount/>
-<Amm/>
-<USeEllo/>
-<USeLiPro/>
+    <MountDid />
+    <Didupdate />
+    <ShouldUpdate />
+    <CompWilUnMount />
+    <Amm />
+    <USeEllo />
+    <USeLiPro />
+    <MapFucn />
+    <MapFucnBoot />
+    <Neast/>
   </React.StrictMode>
 );
 reportWebVitals();

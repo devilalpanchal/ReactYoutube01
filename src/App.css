@@ -13,9 +13,14 @@ body {
   border-radius: 20px;
   border: 5px solid rgb(129, 164, 136);
 }
-
+.tabl{
+  margin-left: 650px;
+}
+.White{
+  color: #ffffff;
+}
 .devilal{
-  background-color: #4066e0;
+  background-color: #53db41;
   color: white;
   text-align: center;
 }
