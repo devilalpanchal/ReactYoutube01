@@ -1,8 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+import User from "./User";
 
-
-function ReuseComp(data,i) {
+function ReuseComp() {
     const person = [
         {
             name: "John Doe",
@@ -45,14 +45,11 @@ function ReuseComp(data,i) {
             <h3>hello devilall Resuse Component</h3>
             <Table>
                 <tbody>
-                    <tr key={i}>
-                        <td>Name</td>
-                    </tr>
+                   
                     {
-                        person.map((Hub,i) => {
-                            <tr key={i}>
-                                <td>{Hub.name}</td>
-                            </tr>
+                        person.map((data, i) => {
+                            <User data2={data} />
+
                         })
                     }
                 </tbody>

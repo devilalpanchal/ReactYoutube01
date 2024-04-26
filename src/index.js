@@ -32,6 +32,10 @@ import MapFucn from './Method/MapMethod';
 import MapFucnBoot from './Method/BootStrapList';
 import Neast from './Method/NestedListFrnesArr';
 import ReuseComp from './Component/ReuseComponent';
+import Fragment from './ReactFragment';
+import PrantTochild from './Element/PrantTochild';
+import PureCom from './Component/PureComp';
+import Memo from './Hooks/UseMemo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -65,8 +69,13 @@ root.render(
     <USeLiPro />
     <MapFucn />
     <MapFucnBoot />
+    <MapFucnBoot />
     <Neast/>
     <ReuseComp/>
+    <Fragment/>
+    <PrantTochild/>
+    <PureCom/>
+    <Memo/>
   </React.StrictMode>
 );
 reportWebVitals();
