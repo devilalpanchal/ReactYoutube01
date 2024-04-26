@@ -1,9 +1,8 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-import UserCom from "./User";
 
-function ReuseComp() {
+function ReuseComp(data,i) {
     const person = [
         {
             name: "John Doe",
@@ -43,7 +42,6 @@ function ReuseComp() {
     ]
     return (
         <div className="App">
-            <UserCom item={data}  />
             <h3>hello devilall Resuse Component</h3>
             <Table>
                 <tbody>

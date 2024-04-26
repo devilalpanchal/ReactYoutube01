@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import UserDevi from './PassFuncAsProp';
 import Membsres from './Members';
