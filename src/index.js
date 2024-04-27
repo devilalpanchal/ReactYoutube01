@@ -39,6 +39,7 @@ import Memo from './Hooks/UseMemo';
 import UseFefer from './Hooks/UseRefer';
 import FunctionalUSef from './Hooks/UseREfForFunctional';
 import ForwarRef from './Hooks/ForwardReff';
+import ConrolComponent from './Component/ControlledCom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -82,6 +83,7 @@ root.render(
     <UseFefer/>
     <FunctionalUSef/>
     <ForwarRef/>
+    <ConrolComponent/>
   </React.StrictMode>
 );
 reportWebVitals();

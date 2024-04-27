@@ -10,5 +10,4 @@ function ForwardChild(props,ref) {
         </>
     )
 }
-
-export default forwardRef(ForwardChild) ;
+export default forwardRef(ForwardChild);
