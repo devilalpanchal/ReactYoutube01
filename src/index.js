@@ -41,6 +41,7 @@ import FunctionalUSef from './Hooks/UseREfForFunctional';
 import ForwarRef from './Hooks/ForwardReff';
 import ConrolComponent from './Component/ControlledCom';
 import UnconrolComponent from './Component/UnconroledCom';
+import HigherOrderComponent from './Component/HigrOrderCom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -86,6 +87,7 @@ root.render(
     <ForwarRef/>
     <ConrolComponent/>
     <UnconrolComponent/>
+    <HigherOrderComponent/>
   </React.StrictMode>
 );
 reportWebVitals();

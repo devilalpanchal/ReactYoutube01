@@ -19,6 +19,10 @@ body {
 .White{
   color: #ffffff;
 }
+.flex{
+  display: flex;
+  flex-direction: row;
+}
 .devilal{
   background-color: #53db41;
   color: white;
