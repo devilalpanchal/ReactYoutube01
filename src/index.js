@@ -36,6 +36,9 @@ import Fragment from './ReactFragment';
 import PrantTochild from './Element/PrantTochild';
 import PureCom from './Component/PureComp';
 import Memo from './Hooks/UseMemo';
+import UseFefer from './Hooks/UseRefer';
+import FunctionalUSef from './Hooks/UseREfForFunctional';
+import ForwarRef from './Hooks/ForwardReff';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -76,6 +79,9 @@ root.render(
     <PrantTochild/>
     <PureCom/>
     <Memo/>
+    <UseFefer/>
+    <FunctionalUSef/>
+    <ForwarRef/>
   </React.StrictMode>
 );
 reportWebVitals();
